@@ -1,0 +1,20 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-01-09T21:50:00Z
+Papers downloaded: 10
+Datasets downloaded: 3
+Repositories cloned: 5
+
+Research Topic: Do LLMs differentiate epistemic belief from non-epistemic belief?
+
+Key Resources:
+- KaBLE benchmark (13,000 questions on epistemic reasoning)
+- OpenToM benchmark (13,708 questions on ToM with epistemic/non-epistemic states)
+- ToMBench benchmark (2,860 questions on comprehensive ToM)
+
+Primary Recommendations:
+1. Use KaBLE for direct epistemic differentiation testing
+2. Use OpenToM for epistemic vs non-epistemic comparison (location vs attitude questions)
+3. Use ToMBench for standardized baseline comparison
+
+See literature_review.md for comprehensive synthesis
+See resources.md for complete resource catalog

@@ -1,0 +1,77 @@
+{
+  "model": "gpt-4.1",
+  "total_samples": 500,
+  "overall_accuracy": 0.702,
+  "h1_true_false_gap": {
+    "first_person_belief": {
+      "factual_accuracy": 1.0,
+      "false_accuracy": 0.74,
+      "gap": 0.26,
+      "chi2": 12.73209549071618,
+      "p_value": 0.0003594335929295956,
+      "dof": 1,
+      "cramers_v": 0.35682062007003157,
+      "effect_interpretation": "medium"
+    },
+    "third_person_belief": {
+      "factual_accuracy": 1.0,
+      "false_accuracy": 0.94,
+      "gap": 0.06000000000000005,
+      "chi2": 1.3745704467353952,
+      "p_value": 0.24102816726442872,
+      "dof": 1,
+      "cramers_v": 0.11724207635210983,
+      "effect_interpretation": "small"
+    },
+    "first_person_knowledge": {
+      "factual_accuracy": 0.98,
+      "false_accuracy": 0.0,
+      "gap": 0.98,
+      "chi2": 92.1968787515006,
+      "p_value": 7.846843177688326e-22,
+      "dof": 1,
+      "cramers_v": 0.9601920576192068,
+      "effect_interpretation": "large"
+    }
+  },
+  "h2_perspective_asymmetry": {
+    "first_person": {
+      "accuracy": 0.87,
+      "n": 100,
+      "ci_lower": 0.7901964855992357,
+      "ci_upper": 0.9224283257275948
+    },
+    "third_person": {
+      "accuracy": 0.97,
+      "n": 100,
+      "ci_lower": 0.9154806357094724,
+      "ci_upper": 0.9897454759759611
+    },
+    "gap": 0.09999999999999998,
+    "chi2": 5.502717391304348,
+    "p_value": 0.018986946459598312,
+    "dof": 1,
+    "cramers_v": 0.16587220067425928,
+    "effect_interpretation": "small"
+  },
+  "h3_epistemic_vs_non_epistemic": {
+    "location_epistemic": {
+      "accuracy": 0.65,
+      "n": 100,
+      "ci_lower": 0.5525444329688796,
+      "ci_upper": 0.7363575175690247
+    },
+    "attitude_non_epistemic": {
+      "accuracy": 0.53,
+      "n": 100,
+      "ci_lower": 0.4328885697009936,
+      "ci_upper": 0.6248918204065872
+    },
+    "gap": 0.12,
+    "chi2": 2.50103348491112,
+    "p_value": 0.1137716154766258,
+    "dof": 1,
+    "cramers_v": 0.11182650591230865,
+    "effect_interpretation": "small"
+  }
+}

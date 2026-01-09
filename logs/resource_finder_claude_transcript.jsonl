@@ -1,0 +1,54 @@
+## Resource Finding Phase Complete
+
+I have successfully completed the literature review and resource gathering for the research topic: **"Do LLMs differentiate epistemic belief from non-epistemic belief?"**
+
+### Summary of Resources Gathered
+
+#### Papers Downloaded (10)
+| Paper | Key Contribution |
+|-------|------------------|
+| KaBLE (arXiv:2410.21195) | **Primary**: 13,000 questions testing epistemic reasoning |
+| Kosinski ToM (arXiv:2302.02083) | Foundational LLM Theory of Mind evaluation |
+| OpenToM (arXiv:2402.06044) | Epistemic vs non-epistemic mental states |
+| ToMBench (arXiv:2402.15052) | Comprehensive 31-ability ToM benchmark |
+| Belief Representations (arXiv:2405.21030) | Criteria for LLM belief measurement |
+| LaBToM (arXiv:2408.12022) | Epistemic language understanding |
+| FANToM (arXiv:2310.15421) | Conversational ToM testing |
+| Belief History (arXiv:2406.04800) | Temporal belief tracking |
+| DEL-ToM (arXiv:2505.17348) | Dynamic Epistemic Logic approach |
+| Epistemic Integrity (arXiv:2411.06528) | Epistemic calibration |
+
+#### Datasets Downloaded (3)
+| Dataset | Size | Key Use |
+|---------|------|---------|
+| **KaBLE** | 13,000 questions | Direct epistemic reasoning test |
+| **OpenToM** | 13,708 questions | Epistemic (location) vs non-epistemic (attitude) comparison |
+| **ToMBench** | 2,860 questions | Standardized ToM baseline |
+
+#### Code Repositories Cloned (5)
+- belief-in-the-machine (KaBLE)
+- OpenToM
+- ToMBench
+- ToMi
+- DEL-ToM
+
+### Key Literature Findings
+
+1. **LLMs struggle with epistemic differentiation**: KaBLE shows 86% accuracy on factual beliefs but only 54.4% on first-person false beliefs
+2. **First-person harder than third-person**: 54.4% vs 80.7% accuracy gap
+3. **Physical vs psychological states**: LLMs handle physical world beliefs better than psychological/non-epistemic states
+4. **Pattern matching concern**: FANToM and other work suggests ToM may be "illusory"
+
+### Recommended Experimental Design
+
+1. **Primary evaluation**: Use KaBLE for epistemic differentiation testing
+2. **Comparison study**: Use OpenToM's location questions (epistemic) vs attitude questions (non-epistemic)
+3. **Baseline**: Compare with published ToMBench scores
+
+All deliverables created:
+- `papers/README.md` - Paper catalog
+- `datasets/README.md` - Dataset documentation with download instructions
+- `code/README.md` - Repository documentation
+- `literature_review.md` - Comprehensive synthesis
+- `resources.md` - Complete resource catalog
+- `.resource_finder_complete` - Completion marker
